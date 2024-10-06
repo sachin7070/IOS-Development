@@ -1,3 +1,4 @@
+``swift
 // import a module
 import Foundation
 
@@ -985,3 +986,5 @@ func testTryStuff() {
     }
 }
 testTryStuff()
+
+```
