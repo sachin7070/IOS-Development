@@ -1,100 +1,88 @@
 # Xcode Shortcuts Guide
 
-A comprehensive list of shortcuts to speed up your workflow in Xcode.
+This guide covers essential Xcode shortcuts for different aspects of your development workflow, including general navigation, code editing, debugging, and more.
 
-### General
+## General
 
-| Action                          | Shortcut              |
-|---------------------------------|-----------------------|
-| Preferences                     | `⌘ ,`                 |
-| Build                           | `⌘ B`                 |
-| Run                             | `⌘ R`                 |
-| Analyze                         | `⇧ ⌘ B`               |
-| Clean                           | `⇧ ⌘ K`               |
-| Test                            | `⌘ U`                 |
-| Profile                         | `⌘ I`                 |
-| Clear Console                   | `⌘ K`                 |
+| Action                                 | Shortcut              |
+|----------------------------------------|-----------------------|
+| Preferences                            | `⌘ ,`                 |
+| Documentation                          | `⇧ ⌘ 0`               |
+| Console                                | `⇧ ⌘ C`               |
+| Documentation for selected text        | `⌃ ⌘ ?`               |
+| Quick Help                             | `⌘ ?`                 |
 
-### Code Navigation
+## Build & Run
 
-| Action                          | Shortcut              |
-|---------------------------------|-----------------------|
-| End of line                     | `⌘ →`                 |
-| Beginning of line               | `⌘ ←`                 |
-| Top of file                     | `⌘ ↑`                 |
-| Bottom of file                  | `⌘ ↓`                 |
-| Next word                       | `⌥ →`                 |
-| Previous word                   | `⌥ ←`                 |
-| Next subword                    | `⌃ →`                 |
-| Previous subword                | `⌃ ←`                 |
-| Center selection                | `⌃ L`                 |
-| Go forward                      | `⌃ ⌘ →`               |
-| Go back                         | `⌃ ⌘ ←`               |
-| Goto line                       | `⌘ L`                 |
-| Find in file                    | `⌘ F`                 |
-| Find in project                 | `⇧ ⌘ F`               |
-| Find next                       | `⌘ G`                 |
-| Find previous                   | `⇧ ⌘ G`               |
+| Action                                 | Shortcut              |
+|----------------------------------------|-----------------------|
+| Build                                  | `⌘ B`                 |
+| Analyze                                | `⇧ ⌘ B`               |
+| Run                                    | `⌘ R`                 |
+| Profile                                | `⌘ I`                 |
+| Test                                   | `⌘ U`                 |
+| Clean                                  | `⇧ ⌘ K`               |
+| Clear console                          | `⌘ K`                 |
 
-### Code Editing
+## Code Navigation
 
-| Action                          | Shortcut              |
-|---------------------------------|-----------------------|
-| Show completions                | `⌃ Space`             |
-| Next completion                 | `⌃ .`                 |
-| Accept completion               | `Tab`                 |
-| Next placeholder                | `⌃ /`                 |
-| Previous placeholder            | `⇧ ⌃ /`               |
-| Comment selection               | `⌘ /`                 |
-| Fold method/class               | `⌥ ⌘ ←`               |
-| Unfold method/class             | `⌥ ⌘ →`               |
-| Edit all in scope               | `⌃ ⌘ E`               |
+| Action                                 | Shortcut              |
+|----------------------------------------|-----------------------|
+| End of line                            | `⌘ →`                 |
+| Beginning of line                      | `⌘ ←`                 |
+| Top of file                            | `⌘ ↑`                 |
+| Bottom of file                         | `⌘ ↓`                 |
+| Next word                              | `⌥ →`                 |
+| Previous word                          | `⌥ ←`                 |
+| Next subword                           | `⌃ →`                 |
+| Previous subword                       | `⌃ ←`                 |
+| Center selection                       | `⌃ L`                 |
+| Goto line                              | `⌘ L`                 |
+| Find in file                           | `⌘ F`                 |
+| Find in project                        | `⇧ ⌘ F`               |
+| Find next                              | `⌘ G`                 |
+| Find previous                          | `⇧ ⌘ G`               |
 
-### Debugging
+## Code Editing
 
-| Action                          | Shortcut              |
-|---------------------------------|-----------------------|
-| Next issue                      | `⌘ '`                 |
-| Previous issue                  | `⌘ "`                 |
-| Fix next issue                  | `⌃ ⌘ '`               |
-| Fix previous issue              | `⌃ ⌘ "`               |
-| Add breakpoint                  | `⌘ \`                 |
-| Activate breakpoints            | `⌘ Y`                 |
+| Action                                 | Shortcut              |
+|----------------------------------------|-----------------------|
+| Show completions                       | `⌃ Space`             |
+| Next completion                        | `⌃ .`                 |
+| Accept completion                      | `Tab`                 |
+| Next placeholder                       | `⌃ /`                 |
+| Previous placeholder                   | `⇧ ⌃ /`               |
+| Comment selection                      | `⌘ /`                 |
+| Fold method/class                      | `⌥ ⌘ ←`               |
+| Unfold method/class                    | `⌥ ⌘ →`               |
+| Edit all in scope                      | `⌃ ⌘ E`               |
 
-### Libraries
+## File Navigation
 
-| Action                          | Shortcut              |
-|---------------------------------|-----------------------|
-| File template                   | `⌃ ⌥ ⌘ 1`             |
-| Code snippet                    | `⌃ ⌥ ⌘ 2`             |
-| Object                          | `⌃ ⌥ ⌘ 3`             |
-| Media                           | `⌃ ⌥ ⌘ 4`             |
+| Action                                 | Shortcut              |
+|----------------------------------------|-----------------------|
+| Go forward                             | `⌃ ⌘ →`               |
+| Go back                                | `⌃ ⌘ ←`               |
+| Open quickly                           | `⇧ ⌘ O`               |
+| Show related items                     | `⌃ 1`                 |
 
-### Documentation
+## Debugging
 
-| Action                    b     | Shortcut              |
-|---------------------------------|-----------------------|
-| Show documentation              | `⇧ ⌘ 0`               |
-| Documentation for selected text | `⌃ ⌘ ?`               |
-| Quick Help                      | `⌘ ?`                 |
-| Show related items              | `⌃ 1`                 |
+| Action                                 | Shortcut              |
+|----------------------------------------|-----------------------|
+| Next issue                             | `⌘ '`                 |
+| Previous issue                         | `⌘ "`                 |
+| Fix next issue                         | `⌃ ⌘ '`               |
+| Fix previous issue                     | `⌃ ⌘ "`               |
+| Add breakpoint                         | `⌘ \`                 |
+| Activate breakpoints                   | `⌘ Y`                 |
 
-### Build & Run
+## Libraries
 
-| Action                          | Shortcut              |
-|---------------------------------|-----------------------|
-| Build                           | `⌘ B`                 |
-| Run                             | `⌘ R`                 |
-| Analyze                         | `⇧ ⌘ B`               |
-| Clean                           | `⇧ ⌘ K`               |
+| Action                                 | Shortcut              |
+|----------------------------------------|-----------------------|
+| File template                          | `⌃ ⌥ ⌘ 1`             |
+| Code snippet                           | `⌃ ⌥ ⌘ 2`             |
+| Object                                 | `⌃ ⌥ ⌘ 3`             |
+| Media                                  | `⌃ ⌥ ⌘ 4`             |
 
-### Console
-
-| Action                          | Shortcut              |
-|---------------------------------|-----------------------|
-| Open Console                    | `⇧ ⌘ C`               |
-| Clear Console                   | `⌘ K`                 |
-
----
-
-This guide summarizes the most useful Xcode shortcuts to improve your development workflow.
